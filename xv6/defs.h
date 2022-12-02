@@ -71,6 +71,7 @@ void            kinit2(void*, void*);
 uint            get_refcount(uint);
 void            inc_refcount(uint);
 void            dec_refcount(uint);
+uint            getNumFreePages(void);
 
 // kbd.c
 void            kbdintr(void);

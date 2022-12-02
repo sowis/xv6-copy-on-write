@@ -134,3 +134,7 @@ getNumFreePages(void)
 {
   return num_free_pages;
 }
+
+int sys_getNumFreePages(void) {
+  return (int)getNumFreePages();
+}
